@@ -1,7 +1,7 @@
 export default function AboutIntro() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-16 text-gray-800 leading-relaxed">
-      <h2 className="text-3xl font-semibold mb-8">왜 ‘안식처 찾기’를 만들었나요?</h2>
+      <h2 className="text-3xl font-semibold mb-8">Find Your Safe Haven</h2>
 
       <p className="mb-6">
         많은 사람들이 살아가며 다양한 심리적 어려움을 겪습니다. 하나하나 열거하기에도 벅찰 만큼, 삶의 여러 갈래에서 깊은 고민과 고통을 경험합니다. 그러나 우리 사회에서는 여전히 자신의 마음속 아픔을 누구에게든 쉽게 말하기 어렵습니다. 가족에게도, 친구에게도 속마음을 털어놓기 힘든 이유는 ‘약해 보일까 봐’, ‘이해받지 못할까 봐’, ‘그 사람이 나를 멀리할까 봐’, 혹은 ‘괜한 걱정을 끼칠까 봐’와 같은 두려움 때문일 수 있겠습니다. 결국 많은 사람들이 자신의 마음을 속으로만 삭이며 살아가고 있습니다.
