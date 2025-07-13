@@ -1,16 +1,16 @@
 export default function AboutIntro() {
   return (
-    <section className="bg-white py-20 px-6 text-gray-800">
-      <div className="max-w-4xl mx-auto">
+    <section className="bg-white py-20 px-4 sm:px-6 lg:px-8 text-gray-800">
+      <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gray-900 mb-12">
           Find Your Safe Haven
         </h1>
-        <div className="space-y-8 text-lg leading-loose tracking-wide">
+        <div className="space-y-8 text-[1.05rem] leading-8 tracking-wide">
           <p>
             많은 사람들이 살아가며 다양한 심리적 어려움을 겪습니다. 하나하나 열거하기에도 벅찰 만큼, 삶의 여러 갈래에서 깊은 고민과 고통을 경험합니다.
             그러나 우리 사회에서는 여전히 자신의 마음속 아픔을 누구에게든 쉽게 말하기 어렵습니다.
-            가족에게도, 친구에게도 속마음을 털어놓기 힘든 이유는 ‘약해 보일까 봐’, ‘이해받지 못할까 봐’, ‘그 사람이 나를 멀리할까 봐’, 혹은
-            ‘괜한 걱정을 끼칠까 봐’ 같은 두려움 때문일 수 있겠습니다.
+            가족에게도, 친구에게도 속마음을 털어놓기 힘든 이유는 ‘약해 보일까 봐’, ‘이해받지 못할까 봐’, ‘그 사람이 나를 멀리할까 봐’,
+            혹은 ‘괜한 걱정을 끼칠까 봐’ 같은 두려움 때문일 수 있겠습니다.
           </p>
           <p>
             결국 많은 사람들이 자신의 마음을 속으로만 삭이며 살아가고 있습니다. 혹여 어렵게 용기를 내어 이야기를 해보더라도,
@@ -54,8 +54,8 @@ export default function AboutIntro() {
           </p>
           <p className="text-center text-base italic text-gray-700 mt-12">
             ‘Find Your Safe Haven’은 신뢰할 수 있는 자격을 갖춘 전문가가 운영하는 심리상담센터만을 안내합니다. <br />
-            상담과 평가가 필요할 때, 더 이상 혼자 고민하지 않아도 되도록.<br />
-            누군가의 용기가 소중하게 다뤄질 수 있도록.<br />
+            상담과 평가가 필요할 때, 더 이상 혼자 고민하지 않아도 되도록. <br />
+            누군가의 용기가 소중하게 다뤄질 수 있도록. <br />
             이 공간이 따뜻하고 신뢰할 수 있는 연결의 출발점이 되기를 바랍니다.
           </p>
         </div>
