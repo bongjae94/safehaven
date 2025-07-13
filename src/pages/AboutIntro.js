@@ -54,7 +54,7 @@ export default function AboutIntro() {
         </p>
 
         <p className="mb-6">
-          <span className="font-semibold">‘안식처 찾기’</span>는 신뢰할 수 있는 자격을 갖춘 전문가가 운영하는 심리상담센터만을 안내합니다. 상담과 평가가 필요할 때, 더 이상 혼자 고민하지 않아도 되도록. 누군가의 용기가 소중하게 다뤄질 수 있도록. 이 공간이 <span className="font-semibold text-indigo-700">따뜻하고 신뢰할 수 있는 연결의 출발점</span>이 되기를 바랍니다.
+          <span className="font-semibold">‘Find Your Safe Haven’</span>는 신뢰할 수 있는 자격을 갖춘 전문가가 운영하는 심리상담센터만을 안내합니다. 상담과 평가가 필요할 때, 더 이상 혼자 고민하지 않아도 되도록. 누군가의 용기가 소중하게 다뤄질 수 있도록. 이 공간이 <span className="font-semibold text-indigo-700">따뜻하고 신뢰할 수 있는 연결의 출발점</span>이 되기를 바랍니다.
         </p>
       </div>
     </div>
