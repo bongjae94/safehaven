@@ -7,7 +7,7 @@ const AboutIntro = () => {
     <div
       className="min-h-screen bg-cover bg-center flex items-center justify-center px-4 py-12"
       style={{
-        backgroundImage: "url('/background.jpg')", // public 폴더에 있는 이미지
+        backgroundImage: "url('/background.jpg')", // 반드시 public 폴더에 있어야 함!
       }}
     >
       <div className="bg-white bg-opacity-90 p-10 rounded-2xl shadow-xl max-w-3xl text-gray-800 text-lg leading-relaxed">
@@ -36,7 +36,7 @@ const AboutIntro = () => {
         <p className="mb-4">
           이제 더 이상 혼자 고민하지 않아도 됩니다. 누군가의 용기가 소중하게 다뤄질 수 있도록, 이 사이트가 따뜻하고 신뢰할 수 있는 연결의 출발점이 되기를 바랍니다.
         </p>
-        <p className="text-center text-sm text-gray-500 mt-8">© 2025 Find Your Safe Haven | Made by Bong</p>
+        <p className="text-center text-sm text-gray-500 mt-8">© 2025 Find Your Safe Haven</p>
       </div>
     </div>
   );
