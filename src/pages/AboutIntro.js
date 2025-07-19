@@ -1,65 +1,45 @@
-export default function AboutIntro() {
+// src/pages/AboutIntro.js
+
+import React from "react";
+
+const AboutIntro = () => {
   return (
-    <section className="bg-white py-20 px-4 sm:px-6 lg:px-8 text-gray-800">
-      <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-gray-900 mb-12">
+    <div
+      className="min-h-screen bg-cover bg-center flex items-center justify-center px-4 py-12"
+      style={{
+        backgroundImage: "url('/background.jpg')", // public 폴더에 있는 이미지
+      }}
+    >
+      <div className="bg-white bg-opacity-90 p-10 rounded-2xl shadow-xl max-w-3xl text-gray-800 text-lg leading-relaxed">
+        <h1 className="text-3xl font-bold text-center text-gray-900 mb-6">
           Find Your Safe Haven
         </h1>
-        <div className="space-y-8 text-[1.05rem] leading-8 tracking-wide">
-          <p>
-            많은 사람들이 살아가며 다양한 심리적 어려움을 겪습니다. 하나하나 열거하기에도 벅찰 만큼, 삶의 여러 갈래에서 깊은 고민과 고통을 경험합니다.
-            그러나 우리 사회에서는 여전히 자신의 마음속 아픔을 누구에게든 쉽게 말하기 어렵습니다.
-            가족에게도, 친구에게도 속마음을 털어놓기 힘든 이유는 ‘약해 보일까 봐’, ‘이해받지 못할까 봐’, ‘그 사람이 나를 멀리할까 봐’,
-            혹은 ‘괜한 걱정을 끼칠까 봐’ 같은 두려움 때문일 수 있겠습니다.
-          </p>
-          <p>
-            결국 많은 사람들이 자신의 마음을 속으로만 삭이며 살아가고 있습니다. 혹여 어렵게 용기를 내어 이야기를 해보더라도,
-            기대했던 반응을 얻지 못하거나 되려 더 깊은 상처를 받기도 하고, 내면의 아픔이 충분히 해소되지 않은 채 여전히 남아 있는 것 같은 허탈함을 느끼기도 합니다.
-          </p>
-          <p>
-            그럴 때, 전문가의 도움을 받아보고 싶다는 생각이 들지만 어떤 센터를 가야 할지, 어떤 전문가를 찾아야 할지 막막함을 느끼는 분들이 많습니다.
-            저 역시 그간 주변 지인들로부터 좋은 상담센터를 추천해달라는 연락을 자주 받아왔습니다. 직접 상담을 의뢰하신 분들도 계셨고요.
-            하지만 조언을 구할 수 있는 사람이 없다면 믿을 수 있는 곳을 찾기란 쉽지 않습니다.
-          </p>
-          <p>
-            혼자서 검색해보려 해도, 수많은 상담센터들이 즐비한 가운데 어떤 곳이 신뢰할 만한 곳인지 구별하기 어렵습니다.
-            정신건강의학과는 비교적 명확합니다. 국가의 관리 아래 정신건강의학과 전문의만이 개업할 수 있기 때문에,
-            의료기관으로서의 전문성과 신뢰도가 일정 수준 이상으로 보장됩니다.
-          </p>
-          <p>
-            그러나 심리상담센터는 다릅니다. 대한민국에는 수많은 심리상담 관련 자격증이 존재하며,
-            그중 어떤 자격이 신뢰할 수 있는 것인지 대부분의 사람들은 구분하기 어려울 것입니다.
-            일부 자격증은 일정 수준 이상의 학위와 수천 시간에 이르는 수련 과정을 요구하기 때문에 충분한 자격을 갖추었다고 볼 수 있습니다.
-            하지만 몇몇 자격증은 명확한 기준이 없고, 비교적 짧은 시간만 투자해도 쉽게 취득할 수 있어 실제로 전문성을 갖추었는지 의문이 드는 경우도 있습니다.
-          </p>
-          <p>
-            결국, 전문적인 심리상담과 심리평가를 신뢰할 수 있는 방식으로 제공하는 센터를 찾는 것이 매우 어려운 구조가 되어버린 것입니다.
-          </p>
-          <p>
-            그래서 저는 이 사이트를 만들게 되었습니다. 최소한의 전문성과 신뢰성을 보장할 수 있는 자격을 갖춘 전문가 — 예를 들면,
-            <strong className="font-semibold text-gray-900"> 정신건강임상심리사</strong> (보건복지부),
-            <strong className="font-semibold text-gray-900"> 임상심리전문가</strong> (한국임상심리학회),
-            <strong className="font-semibold text-gray-900"> 상담심리사</strong> (한국상담심리학회),
-            <strong className="font-semibold text-gray-900"> 전문상담사</strong> (한국상담학회) 등 —
-            이들은 자격을 취득하기 위해 오랜 시간의 교육과 체계적인 수련을 이수한 분들입니다.
-          </p>
-          <p>
-            이러한 전문가가 운영하거나 상주하는 심리상담센터라면, 심리적 어려움을 겪는 사람들에게 신뢰할 수 있는 ‘안식처’가 될 수 있습니다.
-          </p>
-          <p>
-            그래서 우리는, 심리적 어려움 속에서도 누구나 안심하고 발걸음할 수 있는 공간, 마음의 쉼을 얻을 수 있는 장소를 ‘안식처’라 부르기로 했습니다.
-          </p>
-          <p>
-            그리고 이러한 ‘안식처’를 더 쉽게 탐색할 수 있도록, 신뢰할 수 있는 자격을 갖춘 전문가가 상주하는 심리상담센터를 안내하는 지도를 만들고자 이 사이트를 개설했습니다.
-          </p>
-          <p className="text-center text-base italic text-gray-700 mt-12">
-            ‘Find Your Safe Haven’은 신뢰할 수 있는 자격을 갖춘 전문가가 운영하는 심리상담센터만을 안내합니다. <br />
-            상담과 평가가 필요할 때, 더 이상 혼자 고민하지 않아도 되도록. <br />
-            누군가의 용기가 소중하게 다뤄질 수 있도록. <br />
-            이 공간이 따뜻하고 신뢰할 수 있는 연결의 출발점이 되기를 바랍니다.
-          </p>
-        </div>
+        <p className="text-center text-gray-600 mb-10">
+          심리적 어려움 속에서도 누구나 안심하고 머물 수 있는 신뢰로운 상담센터를 찾도록 돕고자 합니다.
+        </p>
+        <p className="mb-4">
+          많은 사람들이 살아가며 다양한 심리적 어려움을 겪습니다. 하지만 자신의 마음을 털어놓을 수 있는 공간을 찾기란 쉽지 않습니다.
+        </p>
+        <p className="mb-4">
+          정신건강의학과는 국가의 관리 아래 운영되기 때문에 비교적 신뢰할 수 있는 반면, 심리상담센터는 수많은 자격증이 존재하고 그 신뢰도를 일반인이 구별하기 어렵습니다.
+        </p>
+        <p className="mb-4 font-semibold">
+          이 사이트는 최소한의 전문성과 신뢰성을 담보할 수 있는 자격을 갖춘 전문가들이 운영하는 상담센터들을 안내하고자 만들어졌습니다.
+        </p>
+        <p className="mb-4">
+          예를 들어, <strong className="text-blue-700">정신건강임상심리사</strong>,
+          <strong className="text-blue-700"> 임상심리전문가</strong>,
+          <strong className="text-blue-700"> 상담심리사</strong>,
+          <strong className="text-blue-700"> 전문상담사</strong> 등의 자격은 오랜 기간의 수련과 교육을 필요로 하며,
+          그 자체로 신뢰의 기준이 될 수 있습니다.
+        </p>
+        <p className="mb-4">
+          이제 더 이상 혼자 고민하지 않아도 됩니다. 누군가의 용기가 소중하게 다뤄질 수 있도록, 이 사이트가 따뜻하고 신뢰할 수 있는 연결의 출발점이 되기를 바랍니다.
+        </p>
+        <p className="text-center text-sm text-gray-500 mt-8">© 2025 Find Your Safe Haven | Made by Bong</p>
       </div>
-    </section>
+    </div>
   );
-}
+};
+
+export default AboutIntro;
